@@ -6,19 +6,20 @@ body {
 
 /* Container for the BlogPost Hero */
 .hero-card {
-  max-width: 800px;
-  background-color: aliceblue;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: aliceblue;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+
 }
 
 .hero-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    transform: translateY(-10px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
 nav {
@@ -26,12 +27,12 @@ nav {
     padding: 5px;
     height: 30px;
     display: flex;
-   
+
     position: fixed;
     width: 100%;
 }
 
-nav > h3 {
+nav>h3 {
     margin: 0;
     color: white;
 }
@@ -48,7 +49,8 @@ form {
     background-color: lightblue;
 }
 
-input#post-title, textarea#post-body {
+input#post-title,
+textarea#post-body {
     margin-bottom: 10px;
 }
 
