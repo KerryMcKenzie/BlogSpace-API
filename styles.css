@@ -6,13 +6,14 @@ body {
 
 /* Container for the BlogPost Hero */
 .hero-card {
-  max-width: 700px;
+  max-width: 800px;
   background-color: aliceblue;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  
 }
 
 .hero-card:hover {
@@ -42,6 +43,7 @@ nav > h3 {
 form {
     padding: 60px 10px 10px;
     display: grid;
+    grid-template-columns: 1fr;
     align-items: center;
     background-color: lightblue;
 }
